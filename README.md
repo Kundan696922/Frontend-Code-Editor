@@ -1,14 +1,15 @@
-# 🔧 Goyary Editor - Code Editor with CodeMirror
+![Screenshot 2025-04-23 102513](https://github.com/user-attachments/assets/053bf7ec-bd08-461c-ba52-cb58465d7b1a)# 🔧 Goyary Editor - Code Editor with CodeMirror
 
 A simple yet powerful web-based code editor built using HTML, CSS, JavaScript, and CodeMirror 5. It features live preview, theme toggle, orientation change, and a responsive design.
 
 ## 🖼️ Overview
 
-![image](https://github.com/user-attachments/assets/5b0cd0be-286d-4440-9d06-4a6a00d8e2de)
+![Screenshot 2025-04-23 102503](https://github.com/user-attachments/assets/3d06ab3e-8344-451d-bf72-b5b0095b9113)
 
-![Screenshot 2025-04-23 095038](https://github.com/user-attachments/assets/38d2bc04-f8c6-452d-abcc-42826867a0d5)
 
-![Screenshot 2025-04-23 095052](https://github.com/user-attachments/assets/ea3d8420-feb9-4569-92da-560a1b9db8e3)
+![Screenshot 2025-04-23 102513](https://github.com/user-attachments/assets/feb272cb-da22-4f0c-a608-06cfff0517e4)
+
+![Screenshot 2025-04-23 102522](https://github.com/user-attachments/assets/78103fd8-4c77-4143-901b-ad1961d67cef)
 
 
 ## ✨ Features

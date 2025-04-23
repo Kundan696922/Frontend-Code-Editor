@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple Code Editor</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.13/codemirror.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.13/theme/dracula.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+  <!-- <nav>
+    <span id="hamburger" onclick="nav_open()">☰</span>
+    <div class="top-buttons">
+      <button onclick="runCode()">Run</button>
+      <button onclick="toggleOrientation()">Orientation</button>
+      <button onclick="toggleTheme()">Theme</button>
+    </div>
+  </nav> -->
+
+<main>
+  <h1 class="title">Goyary Editor</h1>
+  <div id="control-btn" class="control-btn">
+    <!-- <span id="close-sidebar">×</span> -->
+    <button><i class="fa-solid fa-house-chimney"></i> </button>
+    <button onclick="saveCode()"><i class="fa-solid fa-floppy-disk"></i></button>
+    <button onclick="toggleOrientation()"><i class="fa-solid fa-camera-rotate"></i></button>
+    <button onclick="toggleTheme()"><i class="fa-solid fa-circle-half-stroke"></i></button>
+    <button onclick="runCode()" class="run"><i class="fa-solid fa-play"></i> Run</button>
+  </div>
+
+  <div id="editor-container" class="horizontal">
+    <textarea id="code" placeholder=""> </textarea>
+    <iframe id="output"></iframe>
+  </div>
+  </main>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.13/codemirror.min.js"></script>
+
+  <!-- Required modes for htmlmixed -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.13/mode/xml/xml.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.13/mode/javascript/javascript.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.13/mode/css/css.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.13/mode/htmlmixed/htmlmixed.min.js"></script>
+
+  <script src="script.js"></script>
+</body>
+</html>

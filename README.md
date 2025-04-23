@@ -1,15 +1,14 @@
-## 🔧 Goyary Editor - Code Editor with CodeMirror
+## 🔧 Quantum Editor - Code Editor with CodeMirror
 
 A simple yet powerful web-based code editor built using HTML, CSS, JavaScript, and CodeMirror 5. It features live preview, theme toggle, orientation change, and a responsive design.
 
 ## 🖼️ Overview
 
-![Screenshot 2025-04-23 102503](https://github.com/user-attachments/assets/3d06ab3e-8344-451d-bf72-b5b0095b9113)
+![Screenshot 2025-04-23 234807](https://github.com/user-attachments/assets/c0f2257b-6399-47bd-8a98-b0c8b777179f)
 
+![Screenshot 2025-04-23 234815](https://github.com/user-attachments/assets/fe91657c-a435-4800-b8fe-592712dd5899)
 
-![Screenshot 2025-04-23 102513](https://github.com/user-attachments/assets/feb272cb-da22-4f0c-a608-06cfff0517e4)
-
-![Screenshot 2025-04-23 102522](https://github.com/user-attachments/assets/78103fd8-4c77-4143-901b-ad1961d67cef)
+![Screenshot 2025-04-23 234824](https://github.com/user-attachments/assets/d570fee4-264f-4a2c-8064-5aacbecaa94f)
 
 
 ## ✨ Features
@@ -23,7 +22,7 @@ A simple yet powerful web-based code editor built using HTML, CSS, JavaScript, a
 
 ## Demo 
 
-> You can see the editor live here: 👉 [Show Demo](https://goyary-editor.netlify.app/)
+> You can see the editor live here: 👉 [Show Demo](https://quantum-editor.netlify.app/)
 
 
 ## 💻 Usage

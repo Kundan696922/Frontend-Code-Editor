@@ -1,25 +1,4 @@
-// window.onload = () => {
-//   document.getElementById("code").value = `<!DOCTYPE html>
-// <html>
-// <head>
-//   <title>Title</title>
-//   <style>
-//     body { font-family: sans-serif; color: green; }
-//   </style>
-// </head>
-// <body>
-//   <h1>Hello World</h1>
-//   <script>
-//     console.log("Hello from script!");
-//   </script>
-// </body>
-// </html>`;
-// };
 
-// function runCode() {
-//   const code = document.getElementById("code").value;
-//   document.getElementById("output").srcdoc = code;
-// }
 
 const editor = CodeMirror.fromTextArea(document.getElementById("code"), {
   mode: "htmlmixed",
@@ -62,15 +41,15 @@ function toggleTheme() {
   document.body.classList.toggle("light");
 }
 
-
 function saveCode() {
-  const code = document.getElementById("code").value;
-  const blob = new Blob([code], { type: "text/html" });
-  const a = document.createElement("a");
-  a.download = "index.html";
-  a.href = URL.createObjectURL(blob);
-  a.click();
+  const code = editor.getValue(); // get code from CodeMirror, not textarea
+  const blob = new Blob([code], { type: 'text/html' });
+  const link = document.createElement('a');
+  link.href = URL.createObjectURL(blob);
+  link.download = 'index.html';
+  link.click();
 }
+
 
 function toggleTheme() {
   document.body.classList.toggle("dark");

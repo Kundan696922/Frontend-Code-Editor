@@ -2,16 +2,41 @@
   
   @media screen and (max-width: 600px) {
     h1 {
-        font-size: 5rem;
+        font-size: 6rem;
     }
 
     button {
-        font-size: 3rem;
+        font-size: 4.5rem;
     }
 
-    #editor-container {
+    /* #editor-container {
         width: 90%;
         height: 180vh;
-    }
+    } */
+
+    #editor-container {
+      height: 70rem;
+      width: 70rem; 
   }
+    #editor-container.vertical {
+      flex-direction: row;
+    }
+
+    #editor-container.horizontal .CodeMirror,
+    #editor-container.horizontal iframe {
+    width: 80%; /* split width equally */
+    height: 50%;
+    }
+    #editor-container.horizontal {
+      flex-direction: column;
+    }
+
+    #editor-container.vertical .CodeMirror,
+  #editor-container.vertical iframe {
+  width: 35%;
+  height: 100%; /* split height equally */
+}
+
+}
+
   

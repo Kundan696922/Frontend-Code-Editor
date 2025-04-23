@@ -22,7 +22,7 @@ A simple yet powerful web-based code editor built using HTML, CSS, JavaScript, a
 
 ## Demo 
 
-> You can see the app live here: 👉 [Show Demo](https://goyary-editor.netlify.app/)
+> You can see the editor live here: 👉 [Show Demo](https://goyary-editor.netlify.app/)
 
 
 ## 💻 Usage

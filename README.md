@@ -1,6 +1,6 @@
 # 🔧 Goyary Editor - Code Editor with CodeMirror
 
-A simple yet powerful web-based code editor built using HTML, CSS, JavaScript, and CodeMirror 6. It features live preview, theme toggle, orientation change, and a responsive design.
+A simple yet powerful web-based code editor built using HTML, CSS, JavaScript, and CodeMirror 5. It features live preview, theme toggle, orientation change, and a responsive design.
 
 ## 🖼️ Overview
 
@@ -13,7 +13,7 @@ A simple yet powerful web-based code editor built using HTML, CSS, JavaScript, a
 
 ## ✨ Features
 
-- ✅ **Single Editor with CodeMirror 6**
+- ✅ **Single Editor with CodeMirror 5**
 - 💡 **Syntax Highlighting** (HTML, CSS, JavaScript)
 - ▶️ **Run Code in Real-time**
 - 🔄 **Change Orientation** (Vertical ↔ Horizontal)

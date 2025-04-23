@@ -5,18 +5,26 @@
         font-size: 6rem;
     }
 
-    button {
-        font-size: 4.5rem;
+    .control-btn {
+      gap: 1.2rem;
+      padding-left: 3rem;
     }
 
-    /* #editor-container {
-        width: 90%;
-        height: 180vh;
-    } */
+    button {
+        font-size: 1.2rem;
+    }
 
     #editor-container {
-      height: 70rem;
-      width: 70rem; 
+      height: 80vh;
+      width: 90vw; 
+    }
+
+    .run {
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
+      padding-top: 0.25rem;
+      padding-bottom: 0.25rem;
+      border-radius: 0.6rem;
     }
     
     #editor-container.vertical {
@@ -25,7 +33,7 @@
 
     #editor-container.horizontal .CodeMirror,
     #editor-container.horizontal iframe {
-    width: 80%; /* split width equally */
+    width: 90%; /* split width equally */
     height: 50%;
     }
     
@@ -34,8 +42,8 @@
     }
 
     #editor-container.vertical .CodeMirror, #editor-container.vertical iframe {
-    width: 35%;
-    height: 100%; /* split height equally */
+    width: 42%;
+    height: 90%; /* split height equally */
   }
 
 }

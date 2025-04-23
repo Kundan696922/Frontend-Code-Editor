@@ -17,7 +17,8 @@
     #editor-container {
       height: 70rem;
       width: 70rem; 
-  }
+    }
+    
     #editor-container.vertical {
       flex-direction: row;
     }
@@ -27,15 +28,15 @@
     width: 80%; /* split width equally */
     height: 50%;
     }
+    
     #editor-container.horizontal {
       flex-direction: column;
     }
 
-    #editor-container.vertical .CodeMirror,
-  #editor-container.vertical iframe {
-  width: 35%;
-  height: 100%; /* split height equally */
-}
+    #editor-container.vertical .CodeMirror, #editor-container.vertical iframe {
+    width: 35%;
+    height: 100%; /* split height equally */
+  }
 
 }
 

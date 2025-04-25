@@ -1,4 +1,4 @@
-## 🔧 Quantum Editor - Code Editor with CodeMirror
+## 🔧 Quantum Editor - Frontend Code Editor with CodeMirror
 
 A simple yet powerful web-based code editor built using HTML, CSS, JavaScript, and CodeMirror 5. It features live preview, theme toggle, orientation change, and a responsive design.
 

@@ -35,7 +35,7 @@ h1 {
 .control-btn {
   display: flex;
   justify-content: left;
-  padding-left: 4rem;
+  padding-left: 1rem;
   gap: 2rem;
   align-items: center;
   padding-bottom: 2rem;
@@ -75,15 +75,14 @@ button:hover {
   transform: scale(1.1);
   color: var(--accent);
 }
-
-
 #editor-container {
   display: flex;
   height: 75vh;
-  width: 90vw; /* total width shared between children */
-  gap: 2rem;
+  width: 99vw; /* total width shared between children */
+  gap: 0.2rem;
+  margin-top: -1.2rem;
   padding-top: 0.2rem;
-  padding-left: 2rem; /* optional spacing between textarea and iframe */
+  /* padding-left: 0.5rem; optional spacing between textarea and iframe */
 }
 
 /* Vertical (column) layout */

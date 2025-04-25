@@ -7,16 +7,20 @@
 
     .control-btn {
       gap: 1.2rem;
-      padding-left: 3rem;
+      padding-left: 1rem;
     }
 
     button {
-        font-size: 1.2rem;
+        font-size: 1.4rem;
     }
 
     #editor-container {
       height: 80vh;
       width: 90vw; 
+      gap: 0.2rem;
+      margin-top: -1.2rem;
+      padding-top: 1px;
+      padding-left: 1rem;
     }
 
     .run {
@@ -33,7 +37,7 @@
 
     #editor-container.horizontal .CodeMirror,
     #editor-container.horizontal iframe {
-    width: 90%; /* split width equally */
+    width: 100%; /* split width equally */
     height: 50%;
     }
     
@@ -42,8 +46,8 @@
     }
 
     #editor-container.vertical .CodeMirror, #editor-container.vertical iframe {
-    width: 42%;
-    height: 90%; /* split height equally */
+    width: 50%;
+    height: 100%; /* split height equally */
   }
 
 }

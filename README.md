@@ -20,7 +20,7 @@ A simple yet powerful web-based code editor built using HTML, CSS, JavaScript, a
 - 🌗 **Toggle Light/Dark Theme**
 
 
-## Demo 
+## 🚀 Demo 
 
 > You can see the editor live here: 👉 [Show Demo](https://quantum-editor.netlify.app/)
 
